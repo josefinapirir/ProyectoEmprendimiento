@@ -1,0 +1,48 @@
+body{
+    background-color: #ebbddc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding:0%;
+}
+header{
+    background-color: #ea9bec;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+nav{
+    background-color: rgb(238, 147, 203);
+    justify-content: center;
+    display: flex;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+background-color: rgb(225, 127, 255);
+}
+section{
+    padding: 40px;
+    margin: auto;
+    max-width: 1000px;
+}
+.tarjeta{
+    background-color: rgb(235, 171, 171);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 6px rgb(6, 1, 8); 
+}
+.Lugares{
+padding: 10px;
+}
+.turismo{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+}
+.turismo img{
+    width: 100px;
+    border-radius: 10px;
+}
